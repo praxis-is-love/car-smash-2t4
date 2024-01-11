@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Charity Car Smash 2T4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:image" content="screenshot.jpg" />
+	<meta property="og:title" content="Charity Car Smash 2T4" />
+	<meta property="og:description" content="Charity Car Smash 2T4 | fully 3D 360° caught in 4k" />
+	<meta name="title" content="Charity Car Smash 2T4" />
+	<meta name="description" content="Charity Car Smash 2T4 | fully 3D 360° caught in 4k" />
+    <link rel="icon" href="screenshot.jpg" />
+
+    <!-- https://modelviewer.dev/docs/index.html -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+    <style>
+        body {
+            background-color: #222;
+        }
+
+        model-viewer {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            display: block;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <model-viewer
+        src="car_smash.gltf" ios-src="car_smash.gltf"
+        auto-rotate camera-controls ar
+        exposure="0.6" max-field-of-view="20deg"
+        ></model-viewer>
+</body>
+
+</html>
